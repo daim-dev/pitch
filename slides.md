@@ -1,383 +1,214 @@
----
-# try also 'default' to start simple
-theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://source.unsplash.com/collection/94734566/1920x1080
-# apply any windi css classes to the current slide
-class: 'text-center'
-# https://sli.dev/custom/highlighters.html
-highlighter: shiki
-# show line numbers in code blocks
-lineNumbers: false
-# some information about the slides, markdown enabled
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+# Daim Digital
 
-  Learn more at [Sli.dev](https://sli.dev)
-# persist drawings in exports and build
-drawings:
-  persist: false
----
-
-# Welcome to Slidev
-
-Presentation slides for developers
-
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
-
-<div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
-    class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
-</div>
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
+My Company, Daim Digital, is developing open-source digital experience platform to help startups solve a problem with building and managing an affordable digital marketing presence.
 
 ---
 
-# What is Slidev?
+## Introduction
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+My name is Damien Robinson from Daim Digital, I'm here to promote the investment of your time mentoring me. I'm asking for ongoing support and help with building a sustainable business. I'm working with a handful of startups and small businesses to build out a portfolio and help me test the process of my business of building high quality bespoke marketing websites.
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
+--- 
+## Problem
 
-<br>
-<br>
+WordPress and other website builders provides a terrible developer experience and are holding back technical innovate of the web.
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+Website builders are big, complicated technology platforms that are difficult to customise and tailor to brand style. They have a learning curve and force developers to compromise the quality of their output to work with the website builder tool.
 
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
+Server side rendered websites like WordPress are not ideal for reliability and sustainability. They often have server scaling and hosting management headaches.
 
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
+The website is the core of digital presence but that's one channel there are also email and social integrations required to reach those audiences. Off the shelf software never does integration smoothly.
+
+"Content is King - Code is Queen ".
+
+---
+## Is there a ‘compelling’ need
+
+Every business needs a website. Some businesses hire external Digital Agencies to build websites. Other businesses build websites themselves.
+
+Every small business marketing website I have worked on have plenty of issues. Small businesses don't want to spend resources making the web a better place, they want a website that works.
+---
+## Solution
+
+Innovate marketing websites built with bleeding-edge technology. Beautifully designed to provide a competitive digital presence for start-ups.
+
+I'm automating the process of making personalised marketing websites. Automation reduces the time taken to deliver projects and makes the project cheaper to produce.
+
+Nuxt is an innovating static site generation framework I use to build websites.
 
 ---
 
-# Navigation
+## Product
 
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
+I use open source self-hosted software. If the maintainer abandons the project, I can find another, or I can fork the project and maintain it myself.
 
-### Keyboard Shortcuts
+The core tool is Nuxt.js, an innovating static site generation framework I use to build websites.
 
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
+I host websites on Cloudflare, but it can be any static or serverless hosting provider.
 
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
----
-
-# Code
-
-Use code snippets and get the highlighting directly![^1]
-
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
-
-function updateUser(id: number, update: User) {
-  const user = getUser(id)
-  const newUser = { ...user, ...update }
-  saveUser(id, newUser)
-}
-```
-
-<arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
-
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
-
-<style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
+I use a bunch of other quality assurance tools such as Sentry and Google Lighthouse.
 
 ---
 
-# Components
+## Hypothesis
 
-<div grid="~ cols-2 gap-4">
-<div>
+I'm working on testing my idea of automating innovative, high-quality marketing websites for startups.
 
-You can use Vue components directly inside your slides.
+Freelancers and Digital Agencies are out there doing similar work. Plenty of content manage systems out there try to do the same thing. I'm sure there's room in the market for another.
 
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-
----
-class: px-20
----
-
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="-t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/themes/use.html) and
-check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
-
----
-preload: false
----
-
-# Animations
-
-Animations are powered by [@vueuse/motion](https://motion.vueuse.org/).
-
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }">
-  Slidev
-</div>
-```
-
-<div class="w-60 relative mt-6">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-square.png"
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-circle.png"
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute top-0 left-0 right-0 bottom-0"
-      src="https://sli.dev/logo-triangle.png"
-    />
-  </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 40, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn More](https://sli.dev/guide/animations.html#motion)
-
-</div>
+I've worked in content management my whole career and never found a tool that works for me.
 
 ---
 
-# LaTeX
+## Market
 
-LaTeX is supported out-of-box powered by [KaTeX](https://katex.org/).
+My current niche is small business and more specifically startups. I love working with innovative people who want to change things for the better.
 
-<br>
+### Identified market and channel strategies
 
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$
-\begin{array}{c}
-
-\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &
-= \frac{4\pi}{c}\vec{\mathbf{j}}    \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
-
-\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
-
-\nabla \cdot \vec{\mathbf{B}} & = 0
-
-\end{array}
-$$
-
-<br>
-
-[Learn more](https://sli.dev/guide/syntax#latex)
+Utilising **social channels** to share content that would be relevant and helpful for entrepreneurs. Also connecting in person at **networking events, Co working spaces and start up incubators**.
 
 ---
 
-# Diagrams
+## Team
 
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
+I'm a rock star dev, where I often do more than half the work for my whole team. I build websites in 5 days that reach millions of users.
 
-<div class="grid grid-cols-3 gap-10 pt-4 -mb-6">
+Problem is: There is only one of me, and I can't do everything. I would love to train some more junior developers to do cool stuff like me.
 
-```mermaid {scale: 0.5}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
+I work with a few freelance designers and other types of freelancers when they have more experience with something than I do.
 
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
+I'm a web developer working 80-hour weeks for the last 5 years, building my skills in both business and technology with commercial full-time work and open-source contributions.
 
-```plantuml {scale: 0.7}
-@startuml
+Being an entrepreneur myself, I can empathise with the needs of other entrepreneurs.
 
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-[Learn More](https://sli.dev/guide/syntax.html#diagrams)
-
+Passion for open source and collaboration allow me to make wonderful, long-lasting industry connections.
 
 ---
-layout: center
-class: text-center
+
+## The team’s experience and capabilities to execute
+
+I'm a web developer working 80-hour weeks for the last 5 years, building my skills in both business and technology with commercial full-time work and open-source contributions.
+
+I have built plenty of bespoke marketing websites for big brands like Tourism Queensland and Uber.
+
+Passion for open source and collaboration allow me to make wonderful, long-lasting industry connections.
+
 ---
 
-# Learn More
+## Is the business lean, mean and able to ‘pivot’ with opportunities
 
-[Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+As a sole trader, the business is small and since I'm bootstrapping I like to keep things low cost.
+
+I can be pretty mean, I'm not a fan of how big companies get slow and complacent and constantly look for better ways to do their business.
+
+Build working on a variety of projects, I'm always happy to change stuff up. I like to fail fast, so I can move onto the next project.
+
+---
+
+## Passion and commitment of founders to hang in during tough times
+
+I don't think I will be walking away from my personal freelance branding.
+
+I have worked plenty of tough agency jobs where I've been on call and called back into the office in the middle of the night to fix emergencies. Furthermore, I'm uncertain if there is much out there that would turn me away at this point.
+
+---
+
+## Financial
+
+I like to keep costs low, and usually open-source projects can be run for free unless you want to pay the open-source developers. Which I do since it makes the community more sustainable.
+
+---
+
+## Competition
+
+There are millions of Digital Agencies building bespoke software every day. I'm just another average everyday developer looking to fill the capacity with the 2 jobs for every developer.
+
+There are also thousands of content management systems, several of them I have built for other agencies. None of them have worked quite right for me, but that's what I'm looking to change.
+
+The 2 types of alternatives are, do it yourself (DIY) website builders and hiring a digital agency to do it for you.
+
+- WordPress (43% market share)
+- Square Space
+- Wix
+- Shopify
+- Bubble
+- Webflow
+- Plenty of Digital Agencies
+
+---
+
+## Ask
+
+Bootstrapping the business and looking for mentoring rather than funding.
+
+Looking forward to working with the startup community to deliver high quality digital experiences. I invite you to please give your feedback.
+
+---
+
+## Go To Market
+
+Startups have reached out to me looking to work with an English-speaking developer that can effectively communicate with them and get their website to work for them, rather than them working for the website.
+
+I plan to work face to face with startups in River City Labs to build and maintain outstanding digital marketing experiences.
+
+---
+## Business Model
+
+I'm working on freelancing with an hourly rate of $98 working on service packages for projects and retainer-based services. Moving forward, the goal is to use value-based pricing to promote building better products rather than worrying about timesheets.
+
+---
+
+## Milestones
+
+- Help startups
+- do cool digital marketing
+- show results against an industry benchmark.
+- value-based revenue 
+- work full time for myself.
+
+---
+
+# Costs
+
+- Design $2,000 - $5,000 per project
+- Developer $1,000 - $5,000 per project (10 - 50 hours)
+- Project Manager $200 per project
+- Domain name $20 - $400 per year
+- Server Hosting $20 - $4000 per month
+
+## Total
+$3,240 - $14,400 per project
+
+---
+
+## Success metrics
+Measuring how engaging a web page, and how the page is creating revenue generating leads and conversions.
+
+- Impressions
+- Page views
+- Page load speed
+- Time on page
+- Contact form submissions
+
+---
+## How much of your own funds committed to date
+
+Based on the hours I spent writing code in it, which is in the hundreds of hours combined with my hourly rate at $98.
+
+200 x 98 = 19,600
+
+Also, a 2 thousand dollars of capitalisation for assets and other costs setting up the business.
+
+Total $22,600 AUD
+
+---
+
+## Contact
+
+I'm looking forward to working with the startup community to deliver high quality digital experiences. I invite you to please give your feedback.
+
+- **Email** damien.robinson@daim.dev
+- **Website** https://daim.dev
+- **Mobile** +61-437-606-977
+- **Location** New Farm
