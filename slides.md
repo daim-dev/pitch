@@ -1,38 +1,80 @@
-# Daim Digital
+---
+download: true
+---
 
-My Company, Daim Digital, is developing an open-source digital experience platform to help startups solve a problem: building and managing an affordable digital marketing presence.
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
+
+<h1 class="font-brand">Daim Digital</h1>
+
+Developing an open-source digital experience platform to help startups solve a problem: building and managing an affordable digital marketing presence.
+
+<style>
+.font-brand {
+  font-family: "Rouge Script",ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+</style>
 
 ---
 
 ## Introduction
 
-My name is Damien Robinson from Daim Digital, 
+<!--
+Who am I?
+What am I looking for?
+What am I doing?
 
 TODO: more about me aspiring entrepreneur. passions
+ -->
+
+I'm Damien Robinson an aspiring entrepreneur and web developer.
+
+My start up is Daim Digital
+
+I'm working with small businesses and startups, to my portfolio and refine my skills in building high quality bespoke marketing websites.
 
 I'm asking for mentorship and ongoing support with building a sustainable business.
 
-My market is fellow small businesses and startups, who I'm targeting to help me build my portfolio and refine my skills in building high quality bespoke marketing websites.
-
-TODO: So I can automate and streamline the process and scale this to other businesses.
+To help me automate and streamline the process and scale to help other businesses.
 
 ---
 
 ## Story
 
-Why am I doing this?
+### Why am I doing this?
 
-Whats my story?
+I want more freedom to build innovative and sustainable software. I have a passion for building well designed web sites and content management systems.
 
-Problems?
+### Whats my story?
 
-capabilities?
+For the last 5 years I have worked in digital agencies building bespoke landing pages and marketing websites for big and small brands. My favorite project is Scuber.
+
+### Problems?
+
+Existing Content management systems are difficult for developers to use. The systems are designed to improve the efficiency of content editors rather than helping developers to quickly create and maintain websites.
+
+### Capabilities?
+
+Nuxt.js Open source contributor
+
+Marketing automation tool builder
+
+---
+
+## The team’s experience and capabilities to execute
+
+I'm a web developer working 80-hour weeks for the last 5 years, building my skills in both business and technology with commercial full-time work and open-source contributions.
+
+I have built plenty of bespoke marketing websites for big brands such as Tourism Queensland and Uber.
+
+Passion for open source and collaboration allow me to make wonderful, long-lasting industry connections.
 
 ---
 
 ## Problem
 
-TODO: tell story make positive. why people choose a developer for a custom bespoke website and why I am building tools to speed the process up.
+TODO: tell story make positive. why people choose a developer for a custom bespoke website and why I'm building tools to speed the process up.
 
 WordPress and other website builders provides a terrible developer experience and are holding back technical innovate of the web.
 
@@ -54,79 +96,107 @@ Every small business marketing website I have worked on have plenty of issues. S
 
 ---
 
+## Hypothesis
+
+I'm testing my idea of automating innovative, high-quality marketing websites for startups. By working with startups and building marketing websites I can identify patterns for streamlining the process with automation.
+
+Freelancers and Digital Agencies are doing similar work including digital marketing agencies I have worked for. The product of digital agencies, content manage systems try to do the same thing.
+
+I've worked in content management my whole career and never found a tool that works for me. I'm working to build tools that scratch my own itch.
+
+<!--
+
+ -->
+
+---
+
 ## Solution
 
-TODO: I want to streamline and automate the process of optimising websites and providing bespoke marketing digital experiences.
+I want to streamline and automate the process of optimising websites and providing bespoke marketing digital experiences.
 
-I also want to provide these tools open source to fellow small businesses and startups and grow a community. Who can further scale their businesses.
+I also want to provide these open source tools to small businesses and startups and grow a community. To help further scale their businesses.
 
-<!-- Innovate marketing websites built with bleeding-edge technology. Beautifully designed to provide a competitive digital presence for start-ups.
+<!--
+Innovate marketing websites built with bleeding-edge technology. Beautifully designed to provide a competitive digital presence for start-ups.
 
 I'm automating the process of making personalised marketing websites. Automation reduces the time taken to deliver projects and makes the project cheaper to produce.
 
-Nuxt is an innovating static site generation framework I use to build websites. -->
+Nuxt is an innovating static site generation framework I use to build websites.
+-->
 
 ---
 
 ## Tools
 
-I use open source self-hosted software. If the maintainer abandons the project, I can find another, or I can fork the project and maintain it myself.
+Preferably Open source Self-hosted
 
-The core tool is Nuxt.js, an innovating static site generation framework I use to build websites.
+|                    |              |
+| ------------------ | ------------ |
+| Frontend           | Nuxt.js      |
+| Backend            | Laravel PHP  |
+| Database           | Postgres SQL  |
+| Hosting            | Google Cloud |
+| CDN                | Cloudflare   |
+| Image optimization | Cloudinary   |
+| Error Monitoring   | Sentry       |
 
-I host websites on Cloudflare, but it can be any static or serverless hosting provider.
+<!--
+The core tool is Nuxt.js, an innovative static site generation framework I use to build websites.
+
+I host websites on Cloudflare, the worlds largest network provider.
 
 I use a bunch of other quality assurance tools such as Sentry and Google Lighthouse.
 
----
-
-## Hypothesis
-
-<!-- Redundant -->
-
-I'm working on testing my idea of automating innovative, high-quality marketing websites for startups.
-
-Freelancers and Digital Agencies are out there doing similar work. Plenty of content manage systems out there try to do the same thing. I'm sure there's room in the market for another.
-
-I've worked in content management my whole career and never found a tool that works for me.
+This combination of innovative tooling provide a good developer and user experience.
+-->
 
 ---
 
 ## Market
 
+Solo founders and small teams with multiple projects who are time poor.
+
+- Startups
+- Small business
+
+<!--
 My current niche is small business and more specifically startups. I love working with innovative people who want to change things for the better.
 
-Why am I targeting startups? My fellow founders value their time and don't always have the ability to outsource development work. As a solo founder I know there is only one of me and any streamlining to allow for more clients is a must.
+Each small business is unique and need a custom touch to help differentiate them from the compotation.
 
-TODO: My experience working with (SME) shows they're at a stage where they have outgrown the limitations of the above competition but are not making enough revenue to hire digital agencies. This is where both freelancers and automation tools come in: offering both cost and time efficient alternatives.
+Why am I targeting startups? Founders value their time and don't always have the ability to outsource development work. As a solo founder I know there is only one of me and any streamlining to allow for more clients is a must.
+
+My experience working with small businesses shows they quickly get to a stage where they have outgrown the limitations of the above competition but are not making enough revenue to hire digital agencies. This is where both freelancers and automation tools come in: offering both cost and time efficient alternatives.
+
+ -->
 
 ---
 
-## Identified market and channel strategies
+## Channels
+
+Connecting in person at **networking events, Co working spaces and start up incubators** such as River City Labs.
+
+Utilising **social channels** to share content that would be relevant and helpful for entrepreneurs.
+
+<!--
 
 How do I reach startups?
 
-Utilising **social channels** to share content that would be relevant and helpful for entrepreneurs. Also connecting in person at **networking events, Co working spaces and start up incubators**.
+Utilising **social channels** to share content that would be relevant and helpful for entrepreneurs. Also connecting in person at **networking events, Co working spaces and start up incubators** such as River City Labs.
 
----
+Embedding myself in the startup community will present organic opportunities to help founders.
 
-## The team’s experience and capabilities to execute
+I can only network with a few founders in person at a time.
 
-TODO: move this to the background or the story behind my business
+Using my own marketing tools to generate organic digital marketing presence will help reach more founders.
 
-I'm a web developer working 80-hour weeks for the last 5 years, building my skills in both business and technology with commercial full-time work and open-source contributions.
+Writing and sharing interesting articles with founders will help build a relationship with founders.
 
-I have built plenty of bespoke marketing websites for big brands like Tourism Queensland and Uber.
-
-Passion for open source and collaboration allow me to make wonderful, long-lasting industry connections.
+-->
 
 ---
 
 ## Competition
-
-There are millions of Digital Agencies building bespoke software every day. I'm just another average everyday developer looking to fill the capacity with the 2 jobs for every developer.
-
-There are also thousands of content management systems, several of them I have built for other agencies. None of them have worked quite right for me, but that's what I'm looking to change.
 
 The 2 types of alternatives are, do it yourself (DIY) website builders and hiring a digital agency to do it for you.
 
@@ -136,39 +206,89 @@ The 2 types of alternatives are, do it yourself (DIY) website builders and hirin
 - Shopify
 - Bubble
 - Webflow
-- Plenty of Digital Agencies
+- Freelancers
+- Digital Agencies
+
+<!--
+Digital Agencies build bespoke software every day. Over the last 5 years I've worked at digital agencies building bespoke landing pages.
+
+Thousands of content management systems, several of them I have built for other agencies. None of them have worked right for me, but that's what I'm looking to change.
+
+-->
 
 ---
 
-## Go To Market
+# Business Model
 
-TODO: make positive or kill
+## Professional services
+- Software development
+- Web design and development
+- Organic Search Optimisation
+- Messaging (Email, SMS)
+- Support (on call, after hours)
+
+## Software setup and maintenance
+- Server setup and hosting
+- Reselling third party software
+
+<!--
+I'm freelancing at a rate of $98 an hour with packages for projects and retainer-based services. Moving forward, the goal is to use value-based pricing to promote building better products rather than worrying about time sheets.
+
+Working face to face with startups in River City Labs to build and maintain outstanding digital marketing experiences. Each bespoke marketing website project I build I'm able to cross pollinate projects and share reusable components.
 
 Startups have reached out to me looking to work with an English-speaking developer that can effectively communicate with them and get their website to work for them, rather than them working for the website.
-
-I plan to work face to face with startups in River City Labs to build and maintain outstanding digital marketing experiences.
-
----
-## Business Model
-
-I'm working on freelancing with an hourly rate of $98 working on service packages for projects and retainer-based services. Moving forward, the goal is to use value-based pricing to promote building better products rather than worrying about timesheets.
+-->
 
 ---
+layout: two-cols-summary
+---
+
+::heading::
 
 # Costs
 
-- Design $2,000 - $5,000 per project
-- Developer $1,000 - $5,000 per project (10 - 50 hours)
-- Project Manager $200 per project
-- Domain name $20 - $400 per year
-- Server Hosting $20 - $4000 per month
+::left::
 
-## Total
-$3,240 - $14,400 per project
+## Professional Services
+
+- Design $2,000 - $5,000 per project
+- Developer $1,000 - $5,000 per project
+- Project Manager $200 per project
+
+## Per project
+
+$3,200 - $14,400
+
+::right::
+
+## Third party software
+
+- Domain name $20 - $400 per year
+- Server Hosting $260 - $48000 per year
+
+## On going
+
+per year per project
+
+- Software $260
+- Services $2400
+
+<!--
+Design and branding are an important part of digital experiences.
+
+Developers work on custom designs and third party services integrations.
+
+Project management for managing client expectations and delivering on deadlines.
+
+Professional services from freelances are expensive and don't scale well.
+
+Software and server costs are resold with a margin.
+-->
 
 ---
 
 ## Success metrics
+
 Measuring how engaging a web page, and how the page is creating revenue generating leads and conversions.
 
 - Impressions
@@ -176,60 +296,90 @@ Measuring how engaging a web page, and how the page is creating revenue generati
 - Page load speed
 - Time on page
 - Contact form submissions
+- Customer Conversions
 
----
-## How much of your own funds committed to date
+<!--
+Metrics are important for any business and as part of the product analytics get built in.
 
-Based on the hours I spent writing code in it, which is in the hundreds of hours combined with my hourly rate at $98.
+Measuring how engaging a web page, and how the page is creating revenue generating leads and conversions, is an important part of showing value.
 
-200 x 98 = 19,600
-
-Also, a 2 thousand dollars of capitalisation for assets and other costs setting up the business.
-
-Total $22,600 AUD
+Value based pricing needs metrics to prove where the value is coming from.
+ -->
 
 ---
 
 ## Goals
 
-TODO: more specific. Goals
+In the next 12 months I want to:
 
-until I can support myself full time
-
+- Work full time for myself
+- Learn how to run a sustainable business
 - Help startups
-- do cool digital marketing
-- show results against an industry benchmark.
-- value-based revenue 
-- work full time for myself.
+- Build outstanding digital marketing experiences
+- Show results that beat industry benchmarks
+- Value-based revenue and pricing
+
+<!--
+My main goal is to strike out on my own with the freedom and independence of working for myself.
+
+My secondary goals are to help others build their dream business and make their business work for them rather than them working for the business.
+
+I can see an abundance of opportunities to learn new things along the way.
+
+I'm working full time at a digital agency maintaining a custom CMS for government infrastructure contractors to communicate upcoming tunneling works.
+ -->
 
 ---
 
 ## Financial
 
-TODO: move financial to ask page
-
 Not a billion dollar idea.
 Looking for advice on how to reach my market
+
+I'm bootstrapping the business and looking for mentoring rather than funding.
 
 I like to keep costs low, and usually open-source projects can be run for free unless you want to pay the open-source developers. Which I do since it makes the community more sustainable.
 
 ---
 
-## Ask
+# Ask
 
-TODO: move financial to here.
-What kind of mentor am I looking for? My ideals of open source and automation.
-Looking to reach people like me and how to scale my business to reach more people. How to meet demands of getting more clients.
+- ## Mentorship
+- ## Community
+- ## Accountability
 
-Bootstrapping the business and looking for mentoring rather than funding.
+<!--
+# What am I looking to get out of an Accelerator program?
 
-Looking forward to working with the startup community to deliver high quality digital experiences. I invite you to please give your feedback.
+## Mentorship
+What kind of mentor am I looking for?
+
+Someone that can help me build a sustainable business that collaborates with the start up community.
+
+## Community
+
+Being a founder is lonely, I can get much further working with other than I can ever possibly achieve on my own.
+
+## Accountability
+
+Working with others and meeting milestones will help keep me on track to reach my goals.
+
+
+How can I reach people who are going through process of building a startup?
+
+How to scale businesses to reach more people?
+
+How to meet demands of getting more clients?
+
+-->
 
 ---
 
-## Contact
+## Thanks
 
-I'm looking forward to working with the startup community to deliver high quality digital experiences. I invite you to please give your feedback.
+I'm looking forward to working with the startup community to deliver high quality digital experiences.
+
+Thanks for your time. I invite you to please give your feedback.
 
 - **Email** damien.robinson@daim.dev
 - **Website** https://daim.dev
