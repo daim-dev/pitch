@@ -28,52 +28,68 @@ What am I doing?
 TODO: more about me aspiring entrepreneur. passions
  -->
 
-I'm Damien Robinson an aspiring entrepreneur and web developer.
+I'm Damien Robinson web developer and aspiring entrepreneur.
 
 My start up is Daim Digital
 
-I'm working with small businesses and startups, to my portfolio and refine my skills in building high quality bespoke marketing websites.
+I'm working with small businesses and startups, to refine my skills in building high quality bespoke marketing websites.
 
-I'm asking for mentorship and ongoing support with building a sustainable business.
+I'm asking for mentorship and ongoing support with building a sustainable business, so quite my job to work full time doing what I love.
 
-To help me automate and streamline the process and scale to help other businesses.
+To do that I need help to automate and streamline the process and scale to help other businesses.
+
+---
+layout: image
+image: https://daim.dev/img/blog/scuber.png
+---
+
+<!--
+A few years ago working at a digital agency, I built an awesome marketing website for Uber and Tourism Queensland in a week.
+
+The award winning site reached millions of people during a month long campaign.
+
+This project inspired me to take my skills and apply them to my own projects.
+
+I enjoy building these kinds of outstanding marketing websites and have started doing it freelance in my spare time.
+
+-->
 
 ---
 
-## Story
+## Motivation
 
-### Why am I doing this?
+Freedom to build innovative and sustainable software.
 
-I want more freedom to build innovative and sustainable software. I have a passion for building well designed web sites and content management systems.
-
-### Whats my story?
-
-For the last 5 years I have worked in digital agencies building bespoke landing pages and marketing websites for big and small brands. My favorite project is Scuber.
-
-### Problems?
-
-Existing Content management systems are difficult for developers to use. The systems are designed to improve the efficiency of content editors rather than helping developers to quickly create and maintain websites.
-
-### Capabilities?
-
-Nuxt.js Open source contributor
-
-Marketing automation tool builder
+Passion for building well designed web sites and content management systems.
 
 ---
+layout: two-cols-summary
+---
 
-## The team’s experience and capabilities to execute
+::heading::
+# Experience
 
-I'm a web developer working 80-hour weeks for the last 5 years, building my skills in both business and technology with commercial full-time work and open-source contributions.
+::left::
+For the last 5 years I have worked in digital agencies building bespoke landing pages and marketing websites for big and small brands.
 
-I have built plenty of bespoke marketing websites for big brands such as Tourism Queensland and Uber.
-
-Passion for open source and collaboration allow me to make wonderful, long-lasting industry connections.
+::right::
+In industries ranging from tourism to infrastructure.
+- Uber
+- Tourism Queensland
+- Flight Center
+- Brisbane Airport
+- Transport NSW
+- Remedy Kombucha
 
 ---
 
 ## Problem
 
+Existing Content management systems are difficult for developers to use.
+
+The systems are designed to improve the efficiency of content editors rather than helping developers to quickly create and maintain websites.
+
+<!--
 TODO: tell story make positive. why people choose a developer for a custom bespoke website and why I'm building tools to speed the process up.
 
 WordPress and other website builders provides a terrible developer experience and are holding back technical innovate of the web.
@@ -84,8 +100,6 @@ Server side rendered websites like WordPress are not ideal for reliability and s
 
 The website is the core of digital presence but that's one channel there are also email and social integrations required to reach those audiences. Off the shelf software never does integration smoothly.
 
----
-
 ## Is there a ‘compelling’ need
 
 TODO: kill or merge with product
@@ -93,10 +107,17 @@ TODO: kill or merge with product
 Every business needs a website. Some businesses hire external Digital Agencies to build websites. Other businesses build websites themselves.
 
 Every small business marketing website I have worked on have plenty of issues. Small businesses don't want to spend resources making the web a better place, they want a website that works.
+ -->
 
 ---
 
 ## Hypothesis
+
+Can I automate custom bespoke marketing website development?
+
+I sure hope I can because its a tool I want to use for myself.
+
+<!--
 
 I'm testing my idea of automating innovative, high-quality marketing websites for startups. By working with startups and building marketing websites I can identify patterns for streamlining the process with automation.
 
@@ -104,17 +125,17 @@ Freelancers and Digital Agencies are doing similar work including digital market
 
 I've worked in content management my whole career and never found a tool that works for me. I'm working to build tools that scratch my own itch.
 
-<!--
-
- -->
+-->
 
 ---
 
 ## Solution
 
-I want to streamline and automate the process of optimising websites and providing bespoke marketing digital experiences.
+Automate bespoke marketing digital experiences.
 
-I also want to provide these open source tools to small businesses and startups and grow a community. To help further scale their businesses.
+Provide open source tools to startups and grow a community.
+
+Help further scale their businesses too.
 
 <!--
 Innovate marketing websites built with bleeding-edge technology. Beautifully designed to provide a competitive digital presence for start-ups.
@@ -341,6 +362,7 @@ Measuring how engaging a web page, and how the page is creating revenue generati
 - Time on page
 - Contact form submissions
 - Customer Conversions
+- Number of errors
 
 <!--
 Metrics are important for any business and as part of the product analytics get built in.
@@ -377,12 +399,15 @@ I'm working full time at a digital agency maintaining a custom CMS for governmen
 
 ## Financial
 
-Not a billion dollar idea.
-Looking for advice on how to reach my market
+I'm bootstrapping the business.
 
-I'm bootstrapping the business and looking for mentoring rather than funding.
+Looking for mentoring and community rather than funding.
 
+<!--
 I like to keep costs low, and usually open-source projects can be run for free unless you want to pay the open-source developers. Which I do since it makes the community more sustainable.
+
+Working with starts and charging for projects will help fund the development of my product.
+-->
 
 ---
 
@@ -400,11 +425,11 @@ What kind of mentor am I looking for?
 
 Someone that can help me build a sustainable business that collaborates with the start up community.
 
+Help with how I can quit my full time job and work full time as a founder?
+
 ## Community
 
 Being a founder is lonely, I can get much further working with other than I can ever possibly achieve on my own.
-
-## Accountability
 
 Working with others and meeting milestones will help keep me on track to reach my goals.
 
@@ -423,7 +448,9 @@ How to meet demands of getting more clients?
 
 I'm looking forward to working with the startup community to deliver high quality digital experiences.
 
-Thanks for your time. I invite you to please give your feedback.
+Thanks for your time.
+
+I invite you to please give your feedback.
 
 - **Email** damien.robinson@daim.dev
 - **Website** https://daim.dev
