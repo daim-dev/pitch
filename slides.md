@@ -12,7 +12,7 @@ Developing an open-source digital experience platform to help startups solve a p
 
 <style>
 .font-brand {
-  font-family: "Rouge Script",ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: "Rouge Script",ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 </style>
 
@@ -22,14 +22,14 @@ Developing an open-source digital experience platform to help startups solve a p
 
 I'm Damien Robinson
 
-- open source web developer 
+- open-source web developer 
 - aspiring entrepreneur
 
 My start-up is Daim Digital
 
 Working with startups, to build high quality bespoke marketing websites.
 
-Seeking help building a sustainable business, to work full time doing what I love.
+Seeking help building a sustainable business, to work full-time doing what I love.
 
 I need help to automate the process and scale to help other startups.
 
@@ -39,9 +39,9 @@ image: https://daim.dev/img/blog/scuber.png
 ---
 
 <!--
-A few years ago working at a digital agency, I built an awesome marketing website for Uber and Tourism Queensland in a week.
+A few years ago, working at a digital agency, I built an outstanding marketing website for Uber and Tourism Queensland in a week.
 
-The award winning site reached millions of people during a month long campaign.
+The award-winning site reached millions of people during a month-long campaign.
 
 This project inspired me to take my skills and apply them to my own projects.
 
@@ -55,7 +55,7 @@ I enjoy building these kinds of outstanding marketing websites and have started 
 
 Freedom to build innovative and sustainable software.
 
-Passion for building well designed web sites and content management systems.
+Passion for building well-designed websites and content management systems.
 
 ---
 layout: two-cols-summary
@@ -71,7 +71,7 @@ For the last 5 years I have worked in digital agencies building bespoke landing 
 In industries ranging from tourism to infrastructure.
 - Uber
 - Tourism Queensland
-- Flight Center
+- Flight Centre
 - Brisbane Airport
 - Transport NSW
 - Remedy Kombucha
@@ -82,10 +82,10 @@ In industries ranging from tourism to infrastructure.
 
 Existing Content management systems are difficult for developers to use.
 
-The systems are designed to improve the efficiency of content editors rather than helping developers to quickly create and maintain websites.
+The systems are designed to improve the efficiency of content editors, rather than helping developers to quickly create and maintain websites.
 
 <!--
-TODO: tell story make positive. why people choose a developer for a custom bespoke website and why I'm building tools to speed the process up.
+TODO: tell story, make positive. Why people choose a developer for a custom bespoke website and why I'm building tools to speed the process up.
 
 WordPress and other website builders provides a terrible developer experience and are holding back technical innovate of the web.
 
@@ -93,16 +93,16 @@ Website builders are big, complicated technology platforms that are difficult to
 
 Server side rendered websites like WordPress are not ideal for reliability and sustainability. They often have server scaling and hosting management headaches.
 
-The website is the core of digital presence but that's one channel there are also email and social integrations required to reach those audiences. Off the shelf software never does integration smoothly.
+The website is the core of digital presence, but that's one channel, there are also email and social integrations required to reach those audiences. Off the shelf software never does integration smoothly.
 
 ## Is there a ‘compelling’ need
 
-TODO: kill or merge with product
+To-do: kill or merge with product
 
 Every business needs a website. Some businesses hire external Digital Agencies to build websites. Other businesses build websites themselves.
 
 Every small business marketing website I have worked on have plenty of issues. Small businesses don't want to spend resources making the web a better place, they want a website that works.
- -->
+ -->
 
 ---
 
@@ -110,13 +110,13 @@ Every small business marketing website I have worked on have plenty of issues. S
 
 Can I automate custom bespoke marketing website development?
 
-I sure hope I can because its a tool I want to use for myself.
+I sure hope I can because it's a tool I want to use for myself.
 
 <!--
 
-I'm testing my idea of automating innovative, high-quality marketing websites for startups. By working with startups and building marketing websites I can identify patterns for streamlining the process with automation.
+I'm testing my idea of automating innovative, high-quality marketing websites for startups. By working with startups and building marketing websites, I can identify patterns for streamlining the process with automation.
 
-Freelancers and Digital Agencies are doing similar work including digital marketing agencies I have worked for. The product of digital agencies, content manage systems try to do the same thing.
+Freelancers and Digital Agencies are doing similar work, including digital marketing agencies I have worked for. The product of digital agencies, content manage systems, try to do the same thing.
 
 I've worked in content management my whole career and never found a tool that works for me. I'm working to build tools that scratch my own itch.
 
@@ -128,9 +128,9 @@ I've worked in content management my whole career and never found a tool that wo
 
 Automate bespoke marketing digital experiences.
 
-Provide open source tools to startups and grow a community.
+Provide open-source tools to startups and grow a community.
 
-Help further scale their businesses too.
+Help further scale their businesses, too.
 
 <!--
 Innovate marketing websites built with bleeding-edge technology. Beautifully designed to provide a competitive digital presence for start-ups.
@@ -146,20 +146,20 @@ Nuxt is an innovating static site generation framework I use to build websites.
 
 Preferably Open source Self-hosted
 
-|                    |              |
+|                    |              |
 | ------------------ | ------------ |
-| Frontend           | Nuxt.js      |
-| Backend            | Laravel PHP  |
-| Database           | Postgres SQL |
-| Hosting            | Google Cloud |
-| CDN                | Cloudflare   |
-| Image optimization | Cloudinary   |
-| Error Monitoring   | Sentry       |
+| Frontend           | Nuxt.js      |
+| Backend            | Laravel PHP  |
+| Database           | Postgres SQL |
+| Hosting            | Google Cloud |
+| CDN                | Cloudflare   |
+| Image optimisation | Cloudinary   |
+| Error Monitoring   | Sentry       |
 
 <!--
 The core tool is Nuxt.js, an innovative static site generation framework I use to build websites.
 
-I host websites on Cloudflare, the worlds largest network provider.
+I host websites on Cloudflare, the world's the largest network provider.
 
 I use a bunch of other quality assurance tools such as Sentry and Google Lighthouse.
 
@@ -180,15 +180,15 @@ Examples:
 <!--
 # My unfair advantage
 
-## Open source community
+## Open-source community
 
 Building a tool for developers first experience and making it open source allows tinkerers to jump in and contribute.
 
-Allowing people to self host the software is a feature. It's great that other people can own and fully control the code they use.
+Allowing people to self-host the software is a feature. It's great that other people can own and fully control the code they use.
 
-Companies such as Supabase and Sentry are open source, you can host it yourself, but its still raising money and people pay them for the cloud hosted version. This is a great example of open source working profitably.
+Companies such as Supabase and Sentry are open source, you can host it yourself, but it's still raising money and people pay them for the cloud hosted version. This is a great example of open-source working profitably.
 
- -->
+ -->
 
 ---
 
@@ -202,13 +202,13 @@ Solo founders and small teams with multiple projects who are time poor.
 <!--
 My current niche is small business and more specifically startups. I love working with innovative people who want to change things for the better.
 
-Each small business is unique and need a custom touch to help differentiate them from the compotation.
+Each small business is unique and need a custom touch to help differentiate them from the competition.
 
-Why am I targeting startups? Founders value their time and don't always have the ability to outsource development work. As a solo founder I know there is only one of me and any streamlining to allow for more clients is a must.
+Why am I targeting startups? Founders value their time and don't always have the ability to outsource development work. As a solo founder, I know there is only one of me and any streamlining to allow for more clients is a must.
 
-My experience working with small businesses shows they quickly get to a stage where they have outgrown the limitations of the above competition but are not making enough revenue to hire digital agencies. This is where both freelancers and automation tools come in: offering both cost and time efficient alternatives.
+My experience working with small businesses shows they quickly get to a stage where they have outgrown the limitations of the above competition, but are not making enough revenue to hire digital agencies. This is where both freelancers and automation tools come in: offering both cost and time efficient alternatives.
 
- -->
+ -->
 
 ---
 
@@ -288,12 +288,12 @@ Thousands of content management systems, several of them I have built for other 
 ## Software setup and maintenance
 
 - Server setup and hosting
-- Reselling third party software
+- Reselling third-party software
 
 <!--
-I'm freelancing at a rate of $98 an hour with packages for projects and retainer-based services. Moving forward, the goal is to use value-based pricing to promote building better products rather than worrying about time sheets.
+I'm freelancing at $98 an hour with packages for projects and retainer-based services. Moving forward, the goal is to use value-based pricing to promote building better products rather than worrying about time sheets.
 
-Working face to face with startups in River City Labs to build and maintain outstanding digital marketing experiences. Each bespoke marketing website project I build I'm able to cross pollinate projects and share reusable components.
+Working face to face with startups in River City Labs to build and maintain outstanding digital marketing experiences. Each bespoke marketing website project I build, I'm able to cross pollinate projects and share reusable components.
 
 Startups have reached out to me looking to work with an English-speaking developer that can effectively communicate with them and get their website to work for them, rather than them working for the website.
 -->
@@ -321,7 +321,7 @@ $3,200 - $14,400
 
 ::right::
 
-## Third party software
+## Third-party software
 
 - Domain name $20 - $400 per year
 - Server Hosting $260 - $48000 per year
@@ -364,14 +364,14 @@ Metrics are important for any business and as part of the product analytics get 
 
 Measuring how engaging a web page, and how the page is creating revenue generating leads and conversions, is an important part of showing value.
 
-Value based pricing needs metrics to prove where the value is coming from.
- -->
+Value-based pricing needs metrics to prove where the value is coming from.
+ -->
 
 ---
 
 ## Goals
 
-In the next 12 months I want to:
+In the next 12 months, I want to:
 
 - Work full time for myself
 - Learn how to run a sustainable business
@@ -383,12 +383,12 @@ In the next 12 months I want to:
 <!--
 My main goal is to strike out on my own with the freedom and independence of working for myself.
 
-My secondary goals are to help others build their dream business and make their business work for them rather than them working for the business.
+My secondary goals are to help others build their dream business and make their business work for them, rather than them working for the business.
 
 I can see an abundance of opportunities to learn new things along the way.
 
-I'm working full time at a digital agency maintaining a custom CMS for government infrastructure contractors to communicate upcoming tunneling works.
- -->
+I'm working full time at a digital agency, maintaining a custom CMS for government infrastructure contractors to communicate upcoming tunnelling works.
+ -->
 
 ---
 
@@ -418,9 +418,9 @@ Working with starts and charging for projects will help fund the development of 
 ## Mentorship
 What kind of mentor am I looking for?
 
-Someone that can help me build a sustainable business that collaborates with the start up community.
+Someone that can help me build a sustainable business that collaborates with the start-up community.
 
-Help with how I can quit my full time job and work full time as a founder?
+Help with how I can quit my full-time job and work full time as a founder?
 
 ## Community
 
@@ -429,7 +429,7 @@ Being a founder is lonely, I can get much further working with other than I can 
 Working with others and meeting milestones will help keep me on track to reach my goals.
 
 
-How can I reach people who are going through process of building a startup?
+How can I reach people who are going through the process of building a startup?
 
 How to scale businesses to reach more people?
 
