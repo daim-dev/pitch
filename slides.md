@@ -20,23 +20,18 @@ Developing an open-source digital experience platform to help startups solve a p
 
 ## Introduction
 
-<!--
-Who am I?
-What am I looking for?
-What am I doing?
+I'm Damien Robinson
 
-TODO: more about me aspiring entrepreneur. passions
- -->
+- open source web developer 
+- aspiring entrepreneur
 
-I'm Damien Robinson web developer and aspiring entrepreneur.
+My start-up is Daim Digital
 
-My start up is Daim Digital
+Working with startups, to build high quality bespoke marketing websites.
 
-I'm working with small businesses and startups, to refine my skills in building high quality bespoke marketing websites.
+Seeking help building a sustainable business, to work full time doing what I love.
 
-I'm asking for mentorship and ongoing support with building a sustainable business, so quite my job to work full time doing what I love.
-
-To do that I need help to automate and streamline the process and scale to help other businesses.
+I need help to automate the process and scale to help other startups.
 
 ---
 layout: image
