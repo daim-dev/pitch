@@ -134,7 +134,7 @@ Preferably Open source Self-hosted
 | ------------------ | ------------ |
 | Frontend           | Nuxt.js      |
 | Backend            | Laravel PHP  |
-| Database           | Postgres SQL  |
+| Database           | Postgres SQL |
 | Hosting            | Google Cloud |
 | CDN                | Cloudflare   |
 | Image optimization | Cloudinary   |
@@ -149,6 +149,30 @@ I use a bunch of other quality assurance tools such as Sentry and Google Lightho
 
 This combination of innovative tooling provide a good developer and user experience.
 -->
+
+---
+
+# Unfair Advantage
+
+## **Open Source**
+
+Examples:
+
+- Supabase
+- Sentry
+
+<!--
+# My unfair advantage
+
+## Open source community
+
+Building a tool for developers first experience and making it open source allows tinkerers to jump in and contribute.
+
+Allowing people to self host the software is a feature. It's great that other people can own and fully control the code they use.
+
+Companies such as Supabase and Sentry are open source, you can host it yourself, but its still raising money and people pay them for the cloud hosted version. This is a great example of open source working profitably.
+
+ -->
 
 ---
 
@@ -172,7 +196,10 @@ My experience working with small businesses shows they quickly get to a stage wh
 
 ---
 
-## Channels
+# Channels
+
+- River City Labs
+- Social Media and Website
 
 Connecting in person at **networking events, Co working spaces and start up incubators** such as River City Labs.
 
@@ -195,10 +222,24 @@ Writing and sharing interesting articles with founders will help build a relatio
 -->
 
 ---
+layout: two-cols-summary
 
-## Competition
+---
 
-The 2 types of alternatives are, do it yourself (DIY) website builders and hiring a digital agency to do it for you.
+::heading::
+
+# Competition
+
+::left::
+
+## The 2 types of alternatives are
+
+1. **Do it yourself (DIY)** website builders
+1. Hiring a digital agency to **do it for you**
+
+::right::
+
+## Examples
 
 - WordPress (43% market share)
 - Square Space
@@ -221,6 +262,7 @@ Thousands of content management systems, several of them I have built for other 
 # Business Model
 
 ## Professional services
+
 - Software development
 - Web design and development
 - Organic Search Optimisation
@@ -228,6 +270,7 @@ Thousands of content management systems, several of them I have built for other 
 - Support (on call, after hours)
 
 ## Software setup and maintenance
+
 - Server setup and hosting
 - Reselling third party software
 
@@ -241,6 +284,7 @@ Startups have reached out to me looking to work with an English-speaking develop
 
 ---
 layout: two-cols-summary
+
 ---
 
 ::heading::
