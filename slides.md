@@ -27,11 +27,9 @@ I'm Damien Robinson
 
 My start-up is Daim Digital
 
-Working with startups, to build high quality bespoke marketing websites.
+Working with startups, to build and automate high quality bespoke marketing websites.
 
 Seeking help building a sustainable business, to work full-time doing what I love.
-
-I need help to automate the process and scale to help other startups.
 
 ---
 layout: image
