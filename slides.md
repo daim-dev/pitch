@@ -16,7 +16,7 @@ Developing an open-source digital experience platform to help startups solve a p
 
 I'm Damien Robinson
 
-- open-source web developer 
+- open-source web developer
 - aspiring entrepreneur
 
 My start-up is Daim Digital
@@ -164,24 +164,18 @@ This combination of innovative tooling provide a good developer and user experie
 
 ```mermaid
 graph LR
-    subgraph "User"
-        Visitor
-    end
-
     subgraph "Edge"
         Cloudflare["Cloudflare (DNS & CDN)"]
     end
 
     subgraph "Application & Data"
-        S3["Static Nuxt Frontend (S3)"]
-        API["Laravel API (Read Model)"]
-        Search["Typesense Index (Read Model)"]
+        S3["Static Frontend (S3)"]
+        API["API & Database"]
+        Search["Typesense Index"]
     end
 
-    Visitor -- "1. Visits website" --> Cloudflare
-    Cloudflare -- "2. Serves static site" --> S3
-    S3 -- "3. Site may query for search" --> API
-    API -- "4. Queries read model" --> Search
+    Visitor -- "Visits website" --> Cloudflare
+    Cloudflare -- "Serves static site, image assets and API requests" --> S3
 ```
 
 ---
@@ -225,7 +219,7 @@ graph TD
     Processor -- "G. Updates search index" --> Search
 ```
 
-<!-- 
+<!--
 There are the components
 
 Cloudflare DNS & CDN
