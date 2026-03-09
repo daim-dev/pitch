@@ -160,10 +160,10 @@ This combination of innovative tooling provide a good developer and user experie
 
 ---
 
-# Architecture Visitor (Read) Flow
+# Architecture: Visitor (Read) Flow
 
 ```mermaid
-graph TD
+graph LR
     subgraph "User"
         Visitor
     end
@@ -186,10 +186,10 @@ graph TD
 
 ---
 
-# Architecture Editor (Write) Flow
+# Architecture: Editor (Write) Flow
 
 ```mermaid
-graph TD
+graph LR
     subgraph "User"
         Editor
     end
@@ -209,7 +209,7 @@ graph TD
 
 ---
 
-# Architecture Background Processing (CQRS)
+# Architecture: Background Processing (CQRS)
 
 ```mermaid
 graph TD
