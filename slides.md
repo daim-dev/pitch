@@ -213,10 +213,10 @@ graph LR
         Queue["CQRS Queue"]
     end
 
-    Editor -- "A. Edits content" --> CMS
-    CMS -- "B. Sends update" --> API
-    API -- "C. Creates event" --> DB
-    API -- "D. Dispatches job" --> Queue
+    Editor -- "Edits content" --> CMS
+    CMS -- "Sends update" --> API
+    API -- "Creates event" --> DB
+    API -- "Dispatches job" --> Queue
 ```
 
 <!--
@@ -240,9 +240,9 @@ graph TD
         Search["Typesense Index"]
     end
 
-    Queue -- "E. Pushes job to" --> Processor
-    Processor -- "F. Regenerates static site" --> S3
-    Processor -- "G. Updates search index" --> Search
+    Queue -- "Pushes job to" --> Processor
+    Processor -- "Regenerates static site" --> S3
+    Processor -- "Updates search index" --> Search
 ```
 
 <!--
