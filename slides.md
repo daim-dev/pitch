@@ -162,42 +162,66 @@ This combination of innovative tooling provide a good developer and user experie
 
 # Architecture
 
+## Visitor (Read) Flow
+
 ```mermaid
 graph TD
-    subgraph "Users"
-        direction LR
+    subgraph "User"
         Visitor
-        Editor
     end
 
-    subgraph "Edge (Cloudflare)"
-        direction LR
+    subgraph "Edge"
         Cloudflare["Cloudflare (DNS & CDN)"]
     end
 
     subgraph "Application & Data"
         S3["Static Nuxt Frontend (S3)"]
-        CMS["Static Nuxt CMS"]
-        API["Laravel API (Write Model)"]
-        Queue["CQRS Queue"]
-        DB["Turso SQLite DB (Event Store)"]
-        Processor["Queue Processor"]
-        Search["Typesense Index"]
+        API["Laravel API (Read Model)"]
+        Search["Typesense Index (Read Model)"]
     end
 
-    %% Visitor Flow (Read)
     Visitor -- "1. Visits website" --> Cloudflare
     Cloudflare -- "2. Serves static site" --> S3
     S3 -- "3. Site may query for search" --> API
     API -- "4. Queries read model" --> Search
+```
 
-    %% Editor Flow (Write)
+---
+
+## Editor (Write) Flow
+
+```mermaid
+graph TD
+    subgraph "User"
+        Editor
+    end
+
+    subgraph "Application & Data"
+        CMS["Static Nuxt CMS"]
+        API["Laravel API (Write Model)"]
+        DB["Turso SQLite DB (Event Store)"]
+        Queue["CQRS Queue"]
+    end
+
     Editor -- "A. Edits content" --> CMS
     CMS -- "B. Sends update" --> API
     API -- "C. Creates event" --> DB
     API -- "D. Dispatches job" --> Queue
-    
-    %% Background Processing (CQRS)
+```
+
+---
+
+## Background Processing (CQRS)
+
+```mermaid
+graph TD
+    subgraph "Application & Data"
+        Queue["CQRS Queue"]
+        Processor["Queue Processor"]
+        S3["Static Nuxt Frontend (S3)"]
+        Search["Typesense Index"]
+    end
+
     Queue -- "E. Pushes job to" --> Processor
     Processor -- "F. Regenerates static site" --> S3
     Processor -- "G. Updates search index" --> Search
