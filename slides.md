@@ -160,6 +160,62 @@ This combination of innovative tooling provide a good developer and user experie
 
 ---
 
+# Architecture
+
+```mermaid
+graph TD
+    subgraph "Users"
+        direction LR
+        Visitor
+        Editor
+    end
+
+    subgraph "Edge (Cloudflare)"
+        direction LR
+        Cloudflare["Cloudflare (DNS & CDN)"]
+    end
+
+    subgraph "Application & Data"
+        S3["Static Nuxt Frontend (S3)"]
+        CMS["Static Nuxt CMS"]
+        API["Laravel API (Write Model)"]
+        Queue["CQRS Queue"]
+        DB["Turso SQLite DB (Event Store)"]
+        Processor["Queue Processor"]
+        Search["Typesense Index"]
+    end
+
+    %% Visitor Flow (Read)
+    Visitor -- "1. Visits website" --> Cloudflare
+    Cloudflare -- "2. Serves static site" --> S3
+    S3 -- "3. Site may query for search" --> API
+    API -- "4. Queries read model" --> Search
+
+    %% Editor Flow (Write)
+    Editor -- "A. Edits content" --> CMS
+    CMS -- "B. Sends update" --> API
+    API -- "C. Creates event" --> DB
+    API -- "D. Dispatches job" --> Queue
+    
+    %% Background Processing (CQRS)
+    Queue -- "E. Pushes job to" --> Processor
+    Processor -- "F. Regenerates static site" --> S3
+    Processor -- "G. Updates search index" --> Search
+```
+
+<!-- 
+There are the components
+
+Cloudflare DNS & CDN
+Static Nuxt frontend on S3
+Laravel API
+Turso SQLite database
+Static Nuxt CMS
+The architecture is based around a core of Event Sourcing where the data base stores a revision log of edits and has a CQRS queue to process actions based on those edits such as regenerating the static front end and Typesense search indexes.
+ -->
+
+---
+
 # Unfair Advantage
 
 ## **Open Source**
