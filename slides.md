@@ -164,30 +164,11 @@ This combination of innovative tooling provide a good developer and user experie
 
 ```mermaid
 graph TD
-    subgraph "User"
-        Visitor
-        Editor
-    end
-
-    subgraph "Cloud"
-        Cloudflare["Cloudflare (CDN)"]
-        S3["Static Frontend (S3)"]
-        CMS["Nuxt CMS"]
-        API["Laravel API"]
-        DB["Turso DB (Event Store)"]
-        Queue["CQRS Queue"]
-        Search["Typesense Index"]
-    end
-
-    Visitor -- "Request" --> Cloudflare
-    Cloudflare -- "Serve" --> S3
-
-    Editor -- "Edit" --> CMS
-    CMS -- "Update" --> API
-    API -- "Store Event" --> DB
-    API -- "Dispatch Job" --> Queue
-    Queue -- "Process Job" --> S3
-    Queue -- "Process Job" --> Search
+    Visitor --> CDN["Cloudflare CDN"];
+    CDN -- "Reads" --> Frontend["Static Frontend (S3)"];
+    
+    Editor --> CMS["Headless CMS"];
+    CMS -- "Writes" --> Frontend;
 ```
 
 
@@ -225,10 +206,6 @@ The Benefit: Zero server-side processing at runtime, minimizing latency and "Tim
 
 ```mermaid
 graph LR
-    subgraph "User"
-        Editor
-    end
-
     subgraph "Application & Data"
         CMS["Static Nuxt CMS"]
         API["Laravel API (Write Model)"]
