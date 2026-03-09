@@ -17,6 +17,10 @@ importers:
       '@slidev/theme-seriph':
         specifier: ^0.25.0
         version: 0.25.0
+    devDependencies:
+      playwright-chromium:
+        specifier: 1.58.2
+        version: 1.58.2
 
 packages:
 
@@ -5506,10 +5510,8 @@ snapshots:
   playwright-chromium@1.58.2:
     dependencies:
       playwright-core: 1.58.2
-    optional: true
 
-  playwright-core@1.58.2:
-    optional: true
+  playwright-core@1.58.2: {}
 
   points-on-curve@0.2.0: {}
 
