@@ -160,9 +160,7 @@ This combination of innovative tooling provide a good developer and user experie
 
 ---
 
-# Architecture
-
-## Visitor (Read) Flow
+# Architecture Visitor (Read) Flow
 
 ```mermaid
 graph TD
@@ -188,7 +186,7 @@ graph TD
 
 ---
 
-## Editor (Write) Flow
+# Architecture Editor (Write) Flow
 
 ```mermaid
 graph TD
@@ -211,7 +209,7 @@ graph TD
 
 ---
 
-## Background Processing (CQRS)
+# Architecture Background Processing (CQRS)
 
 ```mermaid
 graph TD
