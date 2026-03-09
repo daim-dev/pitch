@@ -1,20 +1,14 @@
 ---
 download: true
+author: Damien Robinson
+fonts:
+  serif: Rouge Script
 ---
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
 
-<h1 class="font-brand">Daim Digital</h1>
+<h1 class="font-serif">Daim Digital</h1>
 
 Developing an open-source digital experience platform to help startups solve a problem: building and managing an affordable digital marketing presence.
-
-<style>
-.font-brand {
-  font-family: "Rouge Script",ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-}
-</style>
 
 ---
 
