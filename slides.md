@@ -160,6 +160,39 @@ This combination of innovative tooling provide a good developer and user experie
 
 ---
 
+## Architecture Overview
+
+```mermaid
+graph TD
+    subgraph "User"
+        Visitor
+        Editor
+    end
+
+    subgraph "Cloud"
+        Cloudflare["Cloudflare (CDN)"]
+        S3["Static Frontend (S3)"]
+        CMS["Nuxt CMS"]
+        API["Laravel API"]
+        DB["Turso DB (Event Store)"]
+        Queue["CQRS Queue"]
+        Search["Typesense Index"]
+    end
+
+    Visitor -- "Request" --> Cloudflare
+    Cloudflare -- "Serve" --> S3
+
+    Editor -- "Edit" --> CMS
+    CMS -- "Update" --> API
+    API -- "Store Event" --> DB
+    API -- "Dispatch Job" --> Queue
+    Queue -- "Process Job" --> S3
+    Queue -- "Process Job" --> Search
+```
+
+
+---
+
 # Architecture: Visitor (Read) Flow
 
 ```mermaid
@@ -177,6 +210,14 @@ graph LR
     Visitor -- "Visits website" --> Cloudflare
     Cloudflare -- "Serves static site, image assets and API requests" --> S3
 ```
+
+<!-- 
+The Flow: Assets (HTML/JS/CSS) are pre-rendered during the build phase and pushed to a Global CDN.
+
+The Request: When a user visits, the CDN serves the nearest cached copy instantly.
+
+The Benefit: Zero server-side processing at runtime, minimizing latency and "Time to First Byte."
+ -->
 
 ---
 
@@ -201,6 +242,14 @@ graph LR
     API -- "D. Dispatches job" --> Queue
 ```
 
+<!--
+The Flow: Editors use a Headless CMS UI to create or update content.
+
+The Persistence: The CMS API validates the input and writes it to the Central Database.
+
+The Trigger: This "Write" often fires a Webhook to the build system, signaling that the static frontend (Slide 1) needs a fresh deployment to reflect the changes.
+ -->
+
 ---
 
 # Architecture: Background Processing (CQRS)
@@ -220,14 +269,14 @@ graph TD
 ```
 
 <!--
-There are the components
+Event Sourced CQRS (The Logic)
+The Command (Write): Actions are captured as Events (e.g., "PostCreated") and stored in an immutable Event Store.
 
-Cloudflare DNS & CDN
-Static Nuxt frontend on S3
-Laravel API
-Turso SQLite database
-Static Nuxt CMS
-The architecture is based around a core of Event Sourcing where the data base stores a revision log of edits and has a CQRS queue to process actions based on those edits such as regenerating the static front end and Typesense search indexes.
+The Projection: An Event Handler listens to the store and updates a Read Model (Materialized View) optimized for specific queries.
+
+The Query (Read): The frontend queries the Read Model via API—completely decoupled from the Event Store logic.
+
+The Benefit: High performance and a perfect audit trail of every state c
  -->
 
 ---
